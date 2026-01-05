@@ -34,9 +34,43 @@ import random
 #    r = d * 0.45
 #    print(f'Sua viagem vai custar R${r} :)')
 
-ano = int(input('Digite um ano e descubra se é bissexto:'))
-b = ano / 4 or 400 or 100
-if b != int:
-    print(f'O ano {ano} é Bissexto')
-else:
-    print(f'Seu ano {ano} não é Bissexto')
+# from datetime import date
+
+# ano = int(input('Digite um ano e descubra se é bissexto, '
+#                'Coloque 0 para saber o bissexto do ano atual:'))
+# if ano == 0:
+#    ano = date.today().year
+# if ano / 4 and ano / 100 != 0 or ano / 400 == 0:
+#    print(f'O ano {ano} é Bissexto')
+# else:
+#    print(f'Seu ano {ano} não é Bissexto')
+
+# v1 = int(input('Primeiro valor:'))
+# v2 = int(input('Segundo valor:'))
+# v3 = int(input('Terceiro valor:'))
+
+# maior = max(v1, v2, v3)
+# menor = min(v1, v2, v3)
+
+# print(f'O maior número foi {maior}')
+# print(f'O menor número foi {menor}')
+
+# salario = float(input('Digite seu salario atual:R$'))
+# if salario <= 1250:
+#    aumento = salario * 0.15
+#    salario_novo = salario + aumento
+#    print(f'Seu salario de {salario} com um aumento de 15% ficou R${salario_novo}')
+# else:
+#    aumento = salario * 0.10
+#    salario_novo = salario + aumento
+#    print(f'Seu salario de {salario} com um aumento de 10% ficou R${salario_novo}')
+
+# a = float(input('Digite um número:'))
+# c = float(input('Digite outro número:'))
+# b = float(input('Digite o ultimo número:'))
+# if a < c + b and c < a + b and b < a + c:
+#    print('Os seguimentos acima podem se tornar um triângulo.')
+# else:
+#    print('Os seguimentos acima não podem se tornar um triângulo.')
+
+# print('\033[7:33:34m kauan \033[m')
