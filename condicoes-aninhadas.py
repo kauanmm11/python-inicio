@@ -96,7 +96,7 @@
 # altura = float(input('Qual sua altura? '))
 # imc = peso / (altura ** 2)
 # print('O imc dessa pessoa é {:.1f}'.format(imc))
-##    print('Você está abaixo do peso normal')
+#    print('Você está abaixo do peso normal')
 # elif imc < 25:
 #    print('PARABÉNS, Você está na faixa de peso normal')
 # elif imc < 30:
@@ -123,7 +123,7 @@
 #     print(f'O preço sem desconto é R${valor:.2f} com desconto de 5% fica em R${desconto:.2f}')
 # elif opcao == 3:
 #     parcela = valor / 2
-#     print(f'Sua compra vai ser parcelada em 2x de {parecela:.2f}')
+#     print(f'Sua compra vai ser parcelada em 2x de {parcela:.2f}')
 # elif opcao == 4:
 #     quantas_parcelas = int(input('Quantas vezes no cartão: '))
 #     total = (valor + valor * 0.20)
