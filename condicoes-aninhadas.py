@@ -106,3 +106,28 @@
 # else:
 #    print('Você está em Obesidade mórbida, cuidado')
 
+# valor = float(input('Preços das compras: R$'))
+# print('''
+# [1] à vista dinheiro/cheque: 10% de desconto
+# [2] à vista no cartão: 5% de desconto
+# [3] em até 2x no cartão: preço formal
+# [4] 3x ou mais no cartão: 20% de juros
+# ''')
+# opcao = int(input('Escolha o modo de pagamento: '))
+
+# if opcao == 1:
+#     desconto = valor - (valor * 10 / 100)
+#     print(f'O preço sem desconto é R${valor:.2f} com desconto de 10% fica em R${desconto:.2f}')
+# elif opcao == 2:
+#     desconto = valor - (valor * 5 / 100)
+#     print(f'O preço sem desconto é R${valor:.2f} com desconto de 5% fica em R${desconto:.2f}')
+# elif opcao == 3:
+#     parcela = valor / 2
+#     print(f'Sua compra vai ser parcelada em 2x de {parecela:.2f}')
+# elif opcao == 4:
+#     quantas_parcelas = int(input('Quantas vezes no cartão: '))
+#     total = (valor + valor * 0.20)
+#     valor_parcela = total / quantas_parcelas
+#     print(f'Sua compra vai ser parcelada em {quantas_parcelas}x de {valor_parcela:.2f} com juros')
+#     print(f'Sua compra de R${valor:.2f} vai custar R${total:.2f}')
+
